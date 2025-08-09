@@ -41,11 +41,46 @@ nav ul li a {
     text-decoration: none;
 }
 
-#hero {
-    background: #f4f4f4;
+.hero-bg {
+    background: url('https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=1600&q=80') no-repeat center center/cover;
+    color: #fff;
     text-align: center;
-    padding: 50px 20px;
+    padding: 80px 20px;
+    min-height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
+
+.hero-bg h2 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+.hero-bg span {
+    color: #ff6600;
+}
+
+.hero-bg p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 12px 25px;
+    background: #ff6600;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+}
+
+.btn:hover {
+    background: #e55a00;
+}
+
 
 #hero h2 {
     font-size: 2em;
